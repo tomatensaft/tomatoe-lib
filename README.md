@@ -6,10 +6,24 @@ tomatoe-lib for tcbsd and linux
 ## contents
 
 - [contents](#contents)
+- [documentation](#documentation)
 - [installation](#installation)
 - [usage](#usage)
+- [main parameters](#main-parameters)
+- [docker](#docker)
+- [boilerplates](#boilerplates)
+- [debug](#debug)
 - [libraries](#libraries)
 - [tests](#tests)
+
+## documentation
+
+- alpine lib [doc] (doc/apline_lib.md)
+- debian lib [doc] (doc/debian_lib.md)
+- qemu lib [doc] (doc/qemu_lib.md)
+- posix shell [doc] (doc/shell_script.md)
+- power shell [doc] (doc/powershell_script.md)
+- python lib [doc] (doc/python_lib.md)
 
 ## installation
 
@@ -18,28 +32,65 @@ tomatoe-lib for tcbsd and linux
 
 ## usage
 
-optional copy `_lib.conf` files for parameters and adjust
-when no file is set as parameter the standard file in the lib is used
-include in the prefered lib in your shell script
+- create `[shell_script_name].conf` in the same folder as the main script and adjust libs which wants to load
+- adjust the correspondent config file for the shell script in the same folder as the shell script
+- e.g. `shell_bp.sh` -> `shell_bp.conf`
+- adjust in the `tomatoe-lib` folder the corresponding lib file e.g. `./conf/debian_lib.conf`
+- execute the created script `[shell_script_name].sh`
 
-set root path from main script
+## main parameters
 
 ```sh
-# ${PWD%/*} -> one folder up / ${PWD%/*/*} -> two folders up 
 SCRIPT_ROOT_PATH="${PWD%/*}"
+SCRIPT_MAIN_LIB="${SCRIPT_ROOT_PATH}/main_lib.sh"
+SCRIPT_APP_NAME="${0##*/}"
+SCRIPT_APP_FULLNAME="${PWD}/${SCRIPT_APP_NAME}"
+SCRIPT_CONF_FULLNAME="$(echo "$SCRIPT_APP_FULLNAME" | sed 's/.\{2\}$/conf/')"
 ```
 
-include lib in main script
+include lib in main script - adjust in `[shell_script_name].conf`
 
 ```sh
-# test include external libs from debian submodule
-if [ -f  ${SCRIPT_ROOT_PATH}/debian_lib.sh ]; then
-    . ${SCRIPT_ROOT_PATH}/debian_lib.sh
+# load config file for default parameters
+if [ -f  ${SCRIPT_CONF_FULLNAME} ]; then
+    printf "$0: include default parameters from ${SCRIPT_CONF_FULLNAME}\n"
+    . ${SCRIPT_CONF_FULLNAME}
 else
-    printf "$0: debian external libs not found - exit.\n"
+    printf "$0: git lib default parameters not found - exit\n"
+    exit 1
+fi
+
+# test include external libs from debian submodule
+if [ -f  ${SCRIPT_MAIN_LIB} ]; then
+    . ${SCRIPT_MAIN_LIB}
+else
+    printf "$0: main libs not found - exit.\n"
     exit 1
 fi
 ```
+
+## docker
+
+the debug python scripts should be executed in docker containers
+in my oppinion this is the most cutest way and you will find a short tutorial here
+
+## boilerplates
+
+there are some boilerplates for python and shell
+
+- shell standard [standard] (boilerplates/shell_bp.sh)
+- python standard [standard] (boilerplates/python_bp.py)
+- python docker [docker] (boilerplates/python_bp_docker.py)
+
+## debug
+
+different automation helpers for debug applications
+
+- mqtt [mqtt] (debug/mqtt)
+- opcua [opcua] (debug/opcua)
+- modbus [modbus] (debug/modbus)
+- posix-shell [posix] (debug/posix-shell)
+- power-shell [power-shell] (debug/power-shell)
 
 ## libraries
 

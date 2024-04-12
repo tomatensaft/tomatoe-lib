@@ -22,6 +22,19 @@ print_header()
 	printf "\n################################################\n\n"
 }
 
+# print main parameters
+print_main_parameters() {
+
+	printf "\n################################################\n"
+	printf "root path: 		${SCRIPT_ROOT_PATH}\n"
+	printf "lib path:		${SCRIPT_MAIN_LIB}\n"
+	printf "app name: 		${SCRIPT_APP_NAME}\n"
+	printf "app fullname:		${SCRIPT_APP_FULLNAME}\n"
+	printf "conf fullname: 		${SCRIPT_CONF_FULLNAME}"
+	printf "\n################################################\n\n"
+
+}
+
 # print header
 print_header 'load shared lib'
 
