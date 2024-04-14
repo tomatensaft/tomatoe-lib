@@ -10,7 +10,6 @@ tomatoe-lib for tcbsd and linux
 - [installation](#installation)
 - [usage](#usage)
 - [main parameters](#main-parameters)
-- [docker](#docker)
 - [boilerplates](#boilerplates)
 - [debug](#debug)
 - [libraries](#libraries)
@@ -18,12 +17,12 @@ tomatoe-lib for tcbsd and linux
 
 ## documentation
 
-- alpine lib [doc] (doc/apline_lib.md)
-- debian lib [doc] (doc/debian_lib.md)
-- qemu lib [doc] (doc/qemu_lib.md)
-- posix shell [doc] (doc/shell_script.md)
-- power shell [doc] (doc/powershell_script.md)
-- python lib [doc] (doc/python_lib.md)
+- alpine lib [doc](doc/apline_lib.md)
+- debian lib [doc](doc/debian_lib.md)
+- qemu lib [doc](doc/qemu_lib.md)
+- posix shell [doc](doc/shell_script.md)
+- power shell [doc](doc/powershell_script.md)
+- python lib [doc](doc/python_lib.md)
 
 ## installation
 
@@ -69,28 +68,24 @@ else
 fi
 ```
 
-## docker
-
-the debug python scripts should be executed in docker containers
-in my oppinion this is the most cutest way and you will find a short tutorial here
-
 ## boilerplates
 
 there are some boilerplates for python and shell
 
-- shell standard [standard] (boilerplates/shell_bp.sh)
-- python standard [standard] (boilerplates/python_bp.py)
-- python docker [docker] (boilerplates/python_bp_docker.py)
+- posix shell standard [standard](boilerplates/posix-shell/)
+- powershell standard [standard](boilerplates/power-shell/)
+- virtual environment python [standard](boilerplates/venv-python/)
+- docker python [docker](boilerplates/docker-python/)
 
 ## debug
 
 different automation helpers for debug applications
 
-- mqtt [mqtt] (debug/mqtt)
-- opcua [opcua] (debug/opcua)
-- modbus [modbus] (debug/modbus)
-- posix-shell [posix] (debug/posix-shell)
-- power-shell [power-shell] (debug/power-shell)
+- mqtt [mqtt](debug/mqtt)
+- opcua [opcua](debug/opcua)
+- modbus [modbus](debug/modbus)
+- posix-shell [posix](debug/posix-shell)
+- power-shell [power-shell](debug/power-shell)
 
 ## libraries
 
