@@ -40,28 +40,28 @@ tomatoe-lib for tcbsd and linux
 ## main parameters
 
 ```sh
-SCRIPT_ROOT_PATH="${PWD%/*}"
-SCRIPT_MAIN_LIB="${SCRIPT_ROOT_PATH}/main_lib.sh"
-SCRIPT_APP_NAME="${0##*/}"
-SCRIPT_APP_FULLNAME="${PWD}/${SCRIPT_APP_NAME}"
-SCRIPT_CONF_FULLNAME="$(echo "$SCRIPT_APP_FULLNAME" | sed 's/.\{2\}$/conf/')"
+root_path="${PWD%/*}"
+main_lib="${root_path}/main_lib.sh"
+app_name="${0##*/}"
+app_fullname="${PWD}/${app_name}"
+conf_default="$(echo "$app_fullname" | sed 's/.\{2\}$/conf/')"
 ```
 
 include lib in main script - adjust in `[shell_script_name].conf`
 
 ```sh
 # load config file for default parameters
-if [ -f  ${SCRIPT_CONF_FULLNAME} ]; then
-    printf "$0: include default parameters from ${SCRIPT_CONF_FULLNAME}\n"
-    . ${SCRIPT_CONF_FULLNAME}
+if [ -f  ${conf_default} ]; then
+    printf "$0: include default parameters from ${conf_default}\n"
+    . ${conf_default}
 else
     printf "$0: git lib default parameters not found - exit\n"
     exit 1
 fi
 
 # test include external libs from debian submodule
-if [ -f  ${SCRIPT_MAIN_LIB} ]; then
-    . ${SCRIPT_MAIN_LIB}
+if [ -f  ${main_lib} ]; then
+    . ${main_lib}
 else
     printf "$0: main libs not found - exit.\n"
     exit 1

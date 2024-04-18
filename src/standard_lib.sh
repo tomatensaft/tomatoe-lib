@@ -4,9 +4,9 @@
 # set -x
 
 # load config file for default parameters
-if [ -f  ${SCRIPT_ROOT_PATH}/conf/standard_lib.conf ]; then
-    printf "$0: include default standard parameters from ${SCRIPT_ROOT_PATH}\n"
-    . ${SCRIPT_ROOT_PATH}/conf/standard_lib.conf
+if [ -f  ${root_path}/conf/standard_lib.conf ]; then
+    printf "$0: include default standard parameters from ${root_path}\n"
+    . ${root_path}/conf/standard_lib.conf
 else
     printf "$0: standardlib default standard parameters not found - exit\n"
     exit 1
@@ -18,7 +18,7 @@ print_header()
 {
 
 	printf "\n################################################\n"
-	printf "$LIB_HEADER -- $1"
+	printf "$lib_header -- $1"
 	printf "\n################################################\n\n"
 }
 
@@ -26,11 +26,11 @@ print_header()
 print_main_parameters() {
 
 	printf "\n################################################\n"
-	printf "root path: 		${SCRIPT_ROOT_PATH}\n"
-	printf "lib path:		${SCRIPT_MAIN_LIB}\n"
-	printf "app name: 		${SCRIPT_APP_NAME}\n"
-	printf "app fullname:		${SCRIPT_APP_FULLNAME}\n"
-	printf "conf fullname: 		${SCRIPT_CONF_FULLNAME}"
+	printf "root path: 		${root_path}\n"
+	printf "lib path:		${main_lib}\n"
+	printf "app name: 		${app_name}\n"
+	printf "app fullname:		${app_fullname}\n"
+	printf "conf fullname: 		${conf_default}"
 	printf "\n################################################\n\n"
 
 }
