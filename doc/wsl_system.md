@@ -1,16 +1,20 @@
-## setup wsl2/debian with external usb/ssd disk
+# setup wsl2/debian with external usb/ssd disk
+
 setup wsl system for use with a windows system and an external usb harddisk
 
-### requirements
-* preinstalled wsl2 is needed
+## requirements
 
-### install wsl2/debian
-* open powershell as adminisrator and type `wsl --install -d debian`
-* maybe on problems with users and/or network, reset the winsock `netsh winsock reset`
-* restart host machine and check if wsl is running correctly
+- preinstalled wsl2 is needed
 
-### enable systemd and automount of windows drives
-```
+## install wsl2/debian
+
+- open powershell as adminisrator and type `wsl --install -d debian`
+- maybe on problems with users and/or network, reset the winsock `netsh winsock reset`
+- restart host machine and check if wsl is running correctly
+
+## enable systemd and automount of windows drives
+
+```sh
 wsl --update --web-download
 wsl --user root printf '[boot]\\nsystemd=true\\n' '>' /etc/wsl.conf
 wsl --user root printf '\\n[automount]\\nenabled=true\\nroot=/mnt/\\noptions=\"umask=000,case=off\"\\n' '>>' /etc/wsl.conf
@@ -20,19 +24,23 @@ wsl --user root systemctl status
 wsl --set-default debian
 ```
 
-### mount external usb drive for testing with drvfs
-* format external usb drive in windows with ntfs
-* determine windows drive letter - for example `g:`
-* loging into the wsl2/debian instance, make a direcotry and mount the drive
-```
+## mount external usb drive for testing with drvfs
+
+- format external usb drive in windows with ntfs
+- determine windows drive letter - for example `g:`
+- loging into the wsl2/debian instance, make a direcotry and mount the drive
+
+```sh
 mkdir /mnt/f
 mount -t drvfs f: /mnt/f
 ```
 
-### setup docker system
-* open the shell of the wsl2/debian instance and login
-* install and test docker
-```
+## setup docker system
+
+- open the shell of the wsl2/debian instance and login
+- install and test docker
+
+```sh
 #directory for keyrings
 sudo mkdir -m 0755 -p /etc/apt/keyrings
 

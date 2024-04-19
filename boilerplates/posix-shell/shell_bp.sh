@@ -45,7 +45,7 @@ else
     printf "$0: no custom file in arguments - not used\n"
 fi
 
-# test include external libs from debian submodule
+# test include external libs from main submodule
 if [ -f  ${main_lib} ]; then
     . ${main_lib}
 else
@@ -77,18 +77,21 @@ main() {
                 check_root
                 check_requirements
                 # call function
+                test_function
                 ;;
 
             --start)
                 log -info "start"
                 check_requirements
                 # call fcuntion
+                test_function
                 ;;
 
             --stop)
                 log -info "stop"
                 check_requirements
                 # call function
+                test_function
                 ;;
 
             --delete)
@@ -118,6 +121,13 @@ check_requirements() {
         log -info "ls program Not Found"
         cleanup_exit ERR
     fi 
+}
+
+# test function
+test_function() {
+
+    log -info "test function"
+
 }
 
 # call main function manually - if not need uncomment

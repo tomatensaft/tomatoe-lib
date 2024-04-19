@@ -1,26 +1,28 @@
 # qemu lib
 
-
 ## general qemu/virsh commands
 
 list virtual machines
-```
+
+```sh
 virsh list
 ```
 
 list virtual storage pools
-```
+
+```sh
 virsh pool-lists
 ```
 
 view volume list
-```
+
+```sh
 virsh vol-list default
 ```
 
-
 handling start/stop/delete virtual machines
-```
+
+```sh
 virsh start [vm]
 virsh reboot [vm]
 virsh shutdown [vm]
@@ -29,26 +31,28 @@ virsh undefine [vm]
 ```
 
 handling of snapshots
-```
+
+```sh
 virsh save [vm] snapshot.state
 virsh restore [vm] snapshot.state
 ```
 
 enter the console
-```
+
+```sh
 virsh console [vm]
 ```
 
 edit configuration
-```
+
+```sh
 virsh edit [vm]
 
 ```
 
-
 small alpine config
-```
 
+```sh
 ALPINE_VERSION=v3.19.0
 wget "http://dl-cdn.alpinelinux.org/alpine/${ALPINE_VERSION%.*}/releases/x86_64/alpine-standard-${ALPINE_VERSION}-x86_64.iso"
 
@@ -77,16 +81,11 @@ qemu-system-x86_64 \
     -m 2048 \
     -nic user \
     -drive file=alpine.qcow2,media=disk
-
-
-
-
 ```
-
 
 info todo
-```
 
+```sh
 virsh dumpxml target_guest_machine > /root/target_guest_machine.xml
 virsh create target_guest_machine.xml
 virsh snapshot-create kvm_guest_name

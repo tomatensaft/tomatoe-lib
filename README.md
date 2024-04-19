@@ -48,6 +48,7 @@ conf_default="$(echo "$app_fullname" | sed 's/.\{2\}$/conf/')"
 ```
 
 include lib in main script - adjust in `[shell_script_name].conf`
+addional load custon file with 2nd parameter `shell_script_name --xxx -custom.conf`
 
 ```sh
 # load config file for default parameters
@@ -55,11 +56,24 @@ if [ -f  ${conf_default} ]; then
     printf "$0: include default parameters from ${conf_default}\n"
     . ${conf_default}
 else
-    printf "$0: git lib default parameters not found - exit\n"
+    printf "$0: config lib default parameters not found - exit\n"
     exit 1
 fi
 
-# test include external libs from debian submodule
+# load config file for custom parameters
+if [ ${conf_custom} != "none" ]; then
+    if [ -f  ${conf_custom} ]; then
+        printf "$0: include custom parameters from ${conf_custom}\n"
+        . ${conf_custom}
+    else
+        printf "$0: config lib custom parameters not found - exit\n"
+        exit 1
+    fi
+else
+    printf "$0: no custom file in arguments - not used\n"
+fi
+
+# test include external libs from main submodule
 if [ -f  ${main_lib} ]; then
     . ${main_lib}
 else
