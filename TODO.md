@@ -1,3 +1,6 @@
+<!-- omit in toc -->
+# todo list 🧑‍🏭
 
+## cerate boilerplate for docker
 
-https://testdriven.io/blog/docker-best-practices/
+(docker best pravtise) [https://testdriven.io/blog/docker-best-practices/]

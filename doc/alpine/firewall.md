@@ -1,0 +1,2 @@
+<!-- omit in toc -->
+# fireall 🔥

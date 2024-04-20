@@ -1,3 +1,5 @@
+<!-- omit in toc -->
+# todo list 🧑‍🏭
 
 # todo list :factory_worker:
 todo list for lib

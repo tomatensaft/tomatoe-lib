@@ -1,3 +1,7 @@
+<!-- omit in toc -->
+# commands 💻
+
+
 # debian lib
 
 ## general debian commands/tools

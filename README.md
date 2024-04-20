@@ -3,26 +3,29 @@
 
 tomatoe-lib for tcbsd and linux
 
+<!-- omit in toc -->
 ## contents
 
-- [contents](#contents)
-- [documentation](#documentation)
-- [installation](#installation)
-- [usage](#usage)
-- [main parameters](#main-parameters)
-- [boilerplates](#boilerplates)
-- [debug](#debug)
-- [libraries](#libraries)
-- [tests](#tests)
+- [documentation] (#documentation)
+- [installation] (#installation)
+- [usage] (#usage)
+- [main parameters] (#main-parameters)
+- [boilerplates] (#boilerplates)
+- [debug] (#debug)
+- [libraries] (#libraries)
+- [general rules for repo] (#general-rules-for-repo)
+- [tests] (#tests)
 
 ## documentation
 
-- alpine lib [doc](doc/apline_lib.md)
-- debian lib [doc](doc/debian_lib.md)
-- qemu lib [doc](doc/qemu_lib.md)
-- posix shell [doc](doc/shell_script.md)
-- power shell [doc](doc/powershell_script.md)
-- python lib [doc](doc/python_lib.md)
+- alpine / linux [alpine] (doc/apline)
+- debian / linux [debian] (doc/debian)
+- tcbsd / freebsd [tcbsd] (doc/tcbsd)
+- qemu commands [qemu] (doc/qemu)
+- docker commands [docker] (doc/docker)
+- posix commands [posix] (doc/posix)
+- windows commands [windows] (doc/windows)
+- python commands [python] (doc/python)
 
 ## installation
 
@@ -115,6 +118,20 @@ different automation helpers for debug applications
 - git [lib](git_lib.sh)
 - standard function [lib](standard_lib.sh)
 - tls library [lib](tls_lib.sh)
+
+## general rules for repo
+
+success return code
+
+```sh
+    0 success / item found
+```
+
+error return code
+
+```sh
+    1 error / item not found
+```
 
 ## tests
 
