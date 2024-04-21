@@ -1,5 +1,7 @@
 <!-- omit in toc -->
-# powershell boilerplate
+# python virtual environment boilerblate
+
+python with virtual environment - use for all platforms
 
 <!-- omit in toc -->
 ## contents
@@ -9,9 +11,4 @@
 
 ## setup
 
-short setup descritopn
-
 ## usage
-
-short usage descripton
-

@@ -6,28 +6,29 @@ tomatoe-lib for tcbsd and linux
 <!-- omit in toc -->
 ## contents
 
-- [documentation] (#documentation)
-- [installation] (#installation)
-- [usage] (#usage)
-- [main parameters] (#main-parameters)
-- [boilerplates] (#boilerplates)
-- [debug] (#debug)
-- [libraries] (#libraries)
-- [general rules for repo] (#general-rules-for-repo)
-- [tests] (#tests)
+- [universal helping docs](#universal-helping-docs)
+- [installation](#installation)
+- [usage](#usage)
+- [main parameters](#main-parameters)
+- [boilerplates](#boilerplates)
+- [debug](#debug)
+- [libraries](#libraries)
+- [general rules for repo functions](#general-rules-for-repo-functions)
+- [tests](#tests)
+- [sources](#sources)
 
-## documentation
+## universal helping docs
 
-- alpine / linux [alpine] (doc/apline)
-- debian / linux [debian] (doc/debian)
-- tcbsd / freebsd [tcbsd] (doc/tcbsd)
-- qemu commands [qemu] (doc/qemu)
-- docker commands [docker] (doc/docker)
-- posix commands [posix] (doc/posix)
-- windows commands [windows] (doc/windows)
-- python commands [python] (doc/python)
+- alpine / linux [alpine](doc/apline)
+- debian / linux [debian](doc/debian)
+- tcbsd / freebsd [tcbsd](doc/tcbsd)
+- qemu commands [qemu](doc/qemu)
+- docker commands [docker](doc/docker)
+- posix commands [posix](doc/posix)
+- windows commands [windows](doc/windows)
+- python commands [python](doc/python)
 
-## installation
+## setup
 
 - add `git add submodule https://github.com/tomatensaft/tomatoe-lib` in the git project
 - for using the latest version include the `git_lib.sh` and update the submodulde `git_submodule_update`
@@ -106,37 +107,39 @@ different automation helpers for debug applications
 
 ## libraries
 
-- linux(debian) [lib](debian_lib.sh)
-- freebsd (tcbsd) [lib](tcbsd_lib.sh)
-- docker [lib](docker_lib.sh)
-- git [lib](git_lib.sh)
-- standard functions [lib](standard_lib.sh)
-- linux(debian) [lib](debian_lib.sh)
-- linux(alpine) [lib](alpine_lib.sh)
-- twincat-bsd (tcbsd) [lib](tcbsd_lib.sh)
-- docker [lib](docker_lib.sh)
-- git [lib](git_lib.sh)
-- standard function [lib](standard_lib.sh)
-- tls library [lib](tls_lib.sh)
+- linux(debian) [lib](src/debian_lib.sh)
+- freebsd (tcbsd) [lib](src/tcbsd_lib.sh)
+- docker [lib](src/docker_lib.sh)
+- git [lib](src/git_lib.sh)
+- standard functions [lib](src/standard_lib.sh)
+- linux(debian) [lib](src/debian_lib.sh)
+- linux(alpine) [lib](src/alpine_lib.sh)
+- twincat-bsd (tcbsd) [lib](src/tcbsd_lib.sh)
+- docker [lib](src/docker_lib.sh)
+- git [lib](src/git_lib.sh)
+- standard function [lib](src/standard_lib.sh)
+- tls library [lib](src/tls_lib.sh)
 
-## general rules for repo
+## general rules for repo functions
 
 success return code
 
 ```sh
-    0 success / item found
+0 success / item found
 ```
 
 error return code
 
 ```sh
-    1 error / item not found
+1 error / item not found
 ```
 
 ## tests
 
 - not testet completly
-  
+
+## sources
+
 ---
 
-[v0.2.0]
+[v0.2.4]

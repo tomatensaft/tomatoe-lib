@@ -81,7 +81,7 @@ sh -c "TcBackup.sh --disk /dev/ada1 < backup.bckp”
 ads logger
 
 ```sh
-    tcamslog -c -r -s 20 -f testlog
+tcamslog -c -r -s 20 -f testlog
 ```
 
 ads logger options
@@ -95,7 +95,7 @@ ads logger options
 change net id and registry parameters
 
 ```sh
-    /usr/local/etc/TwinCAT/3.1/TcRegistry.xml
+/usr/local/etc/TwinCAT/3.1/TcRegistry.xml
 ```
 
 ## ads router

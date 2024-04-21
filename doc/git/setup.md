@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# settings 💾
+# setzp 💾
 
 ## git configuration
 

@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# differnt apps 🥎
+# differnet apps 🥎
 
 <!-- omit in toc -->
 ## contents

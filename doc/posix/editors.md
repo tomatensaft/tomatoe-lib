@@ -1,17 +1,15 @@
 <!-- omit in toc -->
 # editors 💦
 
-## vi editor mode
+<!-- omit in toc -->
+## contents
 
-- `CTRL+G` move to the end of the file
-- `CTRL+F` move to the end of screen
-- `CTRL+L` refresh the screen
-- `x` delete the charakter at the cursor
-- `dd` delete the line at the cursor
-- `yy` yank the current line
-- `p` put the yanked line below the current line
-- `/searchstring` find forward `n` next result
-- `?searchstring` find backward `N` previous result
+## vi editor mode- [contents](#contents)
+
+- [vi editor mode- contents](#vi-editor-mode--contents)
+- [vi command mode `:`](#vi-command-mode-)
+- [vi input mode](#vi-input-mode)
+- [setup vi/vim](#setup-vivim)
 
 ## vi command mode `:`
 

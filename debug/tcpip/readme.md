@@ -1,7 +1,7 @@
 <!-- omit in toc -->
-# posix shell debug applications
+# tcp/ip debug applications
 
-different posix examples
+different tcp/ip examples
 
 <!-- omit in toc -->
 ## contents
@@ -10,4 +10,4 @@ different posix examples
 
 ## usage
 
-usage og shell examples
+usage of tcp/ip

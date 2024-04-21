@@ -1,2 +1,2 @@
 <!-- omit in toc -->
-# settings 💾
+# setup 👻
