@@ -9,7 +9,7 @@
 
 ## setup
 
-installation
+setup
 
 ## usage
 

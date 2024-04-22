@@ -7,7 +7,7 @@ short descriptiotn
 ## contents
 
 - [documentation](#documentation)
-- [installation](#installation)
+- [setup](#setup)
 - [usage](#usage)
 - [main parameters](#main-parameters)
 - [debug](#debug)

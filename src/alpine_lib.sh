@@ -32,7 +32,7 @@ fi
 # install .net framework
 setup_dotnet_installscript() {
 
-    log -info "get dotnet installation script"
+    log -info "get dotnet setup script"
     wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
 
     log -info "dotnet install"

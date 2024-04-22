@@ -1,6 +1,6 @@
 
 <!-- omit in toc -->
-# visual studio code🥸
+# visual studio code 🥸
 
 configuration / packaes of visual studio code ide
 
@@ -8,7 +8,7 @@ configuration / packaes of visual studio code ide
 ## contents
 
 - [documentation](#documentation)
-- [installation](#installation)
+- [setup](#setup)
 - [packages](#packages)
 - [sources](#sources)
 

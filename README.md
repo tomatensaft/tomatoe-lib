@@ -7,7 +7,7 @@ tomatoe-lib for tcbsd and linux
 ## contents
 
 - [universal helping docs](#universal-helping-docs)
-- [installation](#installation)
+- [setup](#setup)
 - [usage](#usage)
 - [main parameters](#main-parameters)
 - [boilerplates](#boilerplates)
@@ -125,13 +125,13 @@ different automation helpers for debug applications
 success return code
 
 ```sh
-0 success / item found
+0/false success / item found
 ```
 
 error return code
 
 ```sh
-1 error / item not found
+1/true error / item not found
 ```
 
 ## tests

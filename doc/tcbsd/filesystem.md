@@ -4,6 +4,17 @@
 <!-- omit in toc -->
 ## contents
 
+- [geom - geometric partitioning](#geom---geometric-partitioning)
+- [gpart - partitioning](#gpart---partitioning)
+- [uefi - partitioning](#uefi---partitioning)
+- [ufs - unix file system](#ufs---unix-file-system)
+- [zfs - zettabyte filesystem](#zfs---zettabyte-filesystem)
+- [zpool - virtual storage pool](#zpool---virtual-storage-pool)
+- [beadm/bectl - boot environments](#beadmbectl---boot-environments)
+- [disk state](#disk-state)
+- [images](#images)
+- [flags - disk state](#flags---disk-state)
+
 ## geom - geometric partitioning
 
 list disks

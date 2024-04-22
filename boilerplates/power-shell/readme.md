@@ -9,9 +9,8 @@
 
 ## setup
 
-short setup descritopn
+short setup descrition
 
 ## usage
 
 short usage descripton
-
