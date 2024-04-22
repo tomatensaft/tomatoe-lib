@@ -1,7 +1,5 @@
 <!-- omit in toc -->
-# setup 👺
-
-# setup wsl2/debian with external usb/ssd disk
+# setup wsl2/debian with external usb/ssd disk 👺
 
 setup wsl system for use with a windows system and an external usb harddisk
 

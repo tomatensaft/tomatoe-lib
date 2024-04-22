@@ -1,6 +1,5 @@
 <!-- omit in toc -->
-# commands 💻
-
+# differnet apps 🥎
 
 # debian lib
 

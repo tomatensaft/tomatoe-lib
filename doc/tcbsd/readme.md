@@ -1,6 +1,9 @@
 <!-- omit in toc -->
 # tcbsd helping docs 😈
 
+tcbsd systemsettings / tools
+
+<!-- omit in toc -->
 ## topics
 
 | section | description | link |

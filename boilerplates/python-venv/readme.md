@@ -12,3 +12,14 @@ python with virtual environment - use for all platforms
 ## setup
 
 ## usage
+
+```sh
+#!/bin/sh
+
+set -e
+
+python3 -m venv .venv
+
+source .venv/bin/activate
+pip install -r requirements.txt
+```

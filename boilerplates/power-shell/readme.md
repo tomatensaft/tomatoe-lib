@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # powershell boilerplate
 
+powershell boilerplate for win10/11
+
 <!-- omit in toc -->
 ## contents
 

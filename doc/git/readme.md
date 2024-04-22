@@ -1,7 +1,12 @@
 <!-- omit in toc -->
 # git helping docs 🐋
 
-## sources
+documentation for git versioning system
 
-- commands [commands](commands.md)
-- setup [setup](setup.md)
+<!-- omit in toc -->
+## topics
+
+| section | description | link |
+|--- |--- |--- |
+| commands | commands for docker engine | [commands](commands.md) |
+| setup | setup docker engine/compose | [setup](setup.md) |

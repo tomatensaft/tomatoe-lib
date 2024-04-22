@@ -1,7 +1,7 @@
 <!-- omit in toc -->
-# python helping docs 🐋
+# windows subsystem for linux 🥸
 
-setup / documentation for python basic usage
+linux emulation system on a windows system - use hyper-v
 
 <!-- omit in toc -->
 ## topics
@@ -10,3 +10,5 @@ setup / documentation for python basic usage
 |--- |--- |--- |
 | commands | commands for docker engine | [commands](commands.md) |
 | setup | setup docker engine/compose | [setup](setup.md) |
+| packages | useful packages | [packages](packages.md) |
+| settings | differnt wsl settings | [settings](settings.md) |

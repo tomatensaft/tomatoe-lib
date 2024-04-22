@@ -1,44 +1,13 @@
-
 <!-- omit in toc -->
 # visual studio code 🥸
 
-configuration / packaes of visual studio code ide
+visual stufio code ide for different platforms
 
 <!-- omit in toc -->
-## contents
+## topics
 
-- [documentation](#documentation)
-- [setup](#setup)
-- [packages](#packages)
-- [sources](#sources)
-
-## documentation
-
-visual studion code is useful for many different developments for win/unis/linux
-
-## setup
-
-- see setup (vscode) [https://code.visualstudio.com/docs]
-
-## packages
-
-- emojisense
-- better comments
-- vsc essentials
-- docker
-- git graph
-- github pull requests
-- gitlens
-- markdown all in one
-- gitignore
-- material icon theme
-- python
-- xml tools
-
-## sources
-
-- (vscode formatter) [https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one]
-
----
-
-[v0.0.0]
+| section | description | link |
+|--- |--- |--- |
+| commands | commands for docker engine | [commands](commands.md) |
+| setup | setup docker engine/compose | [setup](setup.md) |
+| packages | useful packages | [packages](packages.md) |

@@ -9,7 +9,6 @@ different mqtt samples
 - [mqtt pub/sub  json data](#mqtt-pubsub--json-data)
 - [mqtt subscripte console](#mqtt-subscripte-console)
 
-
 ## mqtt pub/sub  json data
 
 subscribe / publish json data
