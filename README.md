@@ -19,14 +19,14 @@ tomatoe-lib for tcbsd and linux
 
 ## universal helping docs
 
-- alpine / linux [alpine](doc/apline)
-- debian / linux [debian](doc/debian)
-- tcbsd / freebsd [tcbsd](doc/tcbsd)
-- qemu commands [qemu](doc/qemu)
-- docker commands [docker](doc/docker)
-- posix commands [posix](doc/posix)
-- windows commands [windows](doc/windows)
-- python commands [python](doc/python)
+- alpine / linux [alpine](doc/alpine/)
+- debian / linux [debian](doc/debian/)
+- tcbsd / freebsd [tcbsd](doc/tcbsd/)
+- qemu commands [qemu](doc/qemu/)
+- docker commands [docker](doc/docker/)
+- posix commands [posix](doc/posix/)
+- windows commands [windows](doc/windows/)
+- python commands [python](doc/python/)
 
 ## setup
 
@@ -99,11 +99,11 @@ there are some boilerplates for python and shell
 
 different automation helpers for debug applications
 
-- mqtt [mqtt](debug/mqtt)
-- opcua [opcua](debug/opcua)
-- modbus [modbus](debug/modbus)
-- posix-shell [posix](debug/posix-shell)
-- power-shell [power-shell](debug/power-shell)
+- mqtt [mqtt](debug/mqtt/)
+- opcua [opcua](debug/opcua/)
+- modbus [modbus](debug/modbus/)
+- posix-shell [posix](debug/posix-shell/)
+- power-shell [power-shell](debug/power-shell/)
 
 ## libraries
 

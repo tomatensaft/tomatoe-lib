@@ -1,0 +1,10 @@
+[W 240424 21:24:51 app:10] This log message saved in the log file
+[W 240424 21:31:04 app:11] This log message saved in the log file
+[W 240424 21:32:49 restapi:7] abc
+[W 240424 21:32:49 app:11] This log message saved in the log file
+[W 240424 21:33:32 restapi:6] abc
+[W 240424 21:33:32 app:11] This log message saved in the log file
+[W 240424 21:34:35 restapi:20] abc
+[W 240424 21:34:35 app:11] This log message saved in the log file
+[W 240424 21:37:19 restapi:10] abc
+[W 240424 21:37:19 app:11] This log message saved in the log file
