@@ -1,16 +1,42 @@
-[I 240426 21:12:56 logconfig:14] logger configuration loaded
-[I 240426 21:12:57 app:14] start main program
-[I 240426 21:13:28 logconfig:14] logger configuration loaded
-[I 240426 21:13:28 app:14] start main program
-[I 240426 21:13:28 app:16] base app
-[I 240426 21:13:43 logconfig:14] logger configuration loaded
-[I 240426 21:13:44 app:14] start main program
-[I 240426 21:13:44 app:16] sabase app
-[I 240426 21:40:30 logconfig:14] logger configuration loaded
-[I 240426 21:40:32 app:15] start main program
-[I 240426 21:40:32 app:16] app namebase app
-[I 240426 21:40:32 app:17] app version0.1
-[I 240426 21:58:14 logconfig:14] logger configuration loaded
-[I 240426 21:58:14 app:15] start main program
-[I 240426 21:58:14 app:16] app namebase app
-[I 240426 21:58:14 app:17] app version0.1
+2024-04-29 21:10:04,992 | INFO | start main program
+2024-04-29 21:10:04,992 | INFO | app namebase app
+2024-04-29 21:10:04,992 | INFO | app version0.1
+2024-04-29 21:11:36,329 | INFO | start main program
+2024-04-29 21:11:36,329 | INFO | app namebase app
+2024-04-29 21:11:36,329 | INFO | app version0.1
+2024-04-29 21:11:37,527 | INFO | start main program
+2024-04-29 21:11:37,527 | INFO | app namebase app
+2024-04-29 21:11:37,527 | INFO | app version0.1
+2024-04-29 21:11:38,372 | INFO | start main program
+2024-04-29 21:11:38,372 | INFO | app namebase app
+2024-04-29 21:11:38,372 | INFO | app version0.1
+2024-04-29 21:11:39,628 | INFO | start main program
+2024-04-29 21:11:39,628 | INFO | app namebase app
+2024-04-29 21:11:39,628 | INFO | app version0.1
+2024-04-29 21:16:49,383 | INFO | start main program
+2024-04-29 21:16:49,383 | INFO | app namebase app
+2024-04-29 21:16:49,383 | INFO | app version0.1
+2024-04-29 21:18:01,088 | INFO | start main program
+2024-04-29 21:18:01,089 | INFO | app namebase app
+2024-04-29 21:18:01,089 | INFO | app version0.1
+2024-04-29 21:20:55,809|INFO|start main program
+2024-04-29 21:20:55,809|INFO|app namebase app
+2024-04-29 21:20:55,810|INFO|app version0.1
+2024-04-29 21:21:11,217|INFO|start main program
+2024-04-29 21:21:11,217|INFO|app namebase app
+2024-04-29 21:21:11,217|INFO|app version0.1
+2024-04-29 21:26:38,957|INFO|start main program
+2024-04-29 21:26:38,969|INFO|app namebase app
+2024-04-29 21:26:38,970|INFO|app version0.1
+2024-04-29 21:27:21,562|INFO|start main program
+2024-04-29 21:27:21,562|INFO|app namebase app
+2024-04-29 21:27:21,562|INFO|app version0.1
+2024-04-29 21:28:03,596|INFO|start main program
+2024-04-29 21:28:03,597|INFO|app namebase app
+2024-04-29 21:28:03,597|INFO|app version0.1
+2024-04-29 21:28:24,661|INFO|start main program
+2024-04-29 21:28:24,661|INFO|app namebase app
+2024-04-29 21:28:24,661|INFO|app version0.1
+2024-04-29 21:38:22,739|INFO|start main program
+2024-04-29 21:38:22,739|INFO|app namebase app
+2024-04-29 21:38:22,739|INFO|app version0.1

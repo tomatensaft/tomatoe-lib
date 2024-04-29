@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <table id="data" class="table table-striped">
+    <thead>
+        <tr>
+        <th>TimeStamp</th>
+        <th>Loglevel</th>
+        <th>Mesage</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for log in logdata %}
+        <tr>
+            <td>{{ log.timestamp }}</td>
+            <td>{{ log.level }}</td>
+            <td>{{ log.msg }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+{% endblock %}
+
+{% block scripts %}
+    <script>
+    $(document).ready(function () {
+        $('#data').DataTable({
+        columns: [
+            null,
+            {searchable: false},
+            {orderable: false, searchable: false},
+            {orderable: false, searchable: false},
+            null],
+        });
+    });
+    </script>
+{% endblock %}
