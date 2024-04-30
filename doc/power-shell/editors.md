@@ -4,14 +4,15 @@
 <!-- omit in toc -->
 ## contents
 
-- [vi editor mode](#vi-editor-mode)
+- [power shell ise](#power-shell-ise)
 - [vi command mode `:`](#vi-command-mode-)
 - [vi input mode](#vi-input-mode)
 - [setup vi/vim](#setup-vivim)
 
-## vi editor mode
 
-- [vi editor mode](#vi-editor-mode)
+## power shell ise
+
+- [power shell ise](#power-shell-ise)
 - [vi command mode `:`](#vi-command-mode-)
 - [vi input mode](#vi-input-mode)
 - [setup vi/vim](#setup-vivim)

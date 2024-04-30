@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # packages 📦
 
+- [package system](#package-system)
+
 ## package system
 
 update meta data

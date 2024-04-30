@@ -1,6 +1,16 @@
 <!-- omit in toc -->
 # setup 💾
 
+setup docker with the commandline
+
+<!-- omit in toc -->
+## contents
+
+- [remote repo configuration](#remote-repo-configuration)
+- [set username and mail with console](#set-username-and-mail-with-console)
+- [set user and mail with config files](#set-user-and-mail-with-config-files)
+
+
 ## remote repo configuration
 
 check remote repo configuration
@@ -31,7 +41,7 @@ git config user.name "myusername"
 git config user.email "local@mail.com"
 ```
 
-## set username and mail with configuration files
+## set user and mail with config files
 
 the global configuration can be found in `.gitconfig`
 

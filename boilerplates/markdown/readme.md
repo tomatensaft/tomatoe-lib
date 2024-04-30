@@ -17,7 +17,7 @@ short descriptiotn
 
 ## documentation
 
-short dscription
+short description
 
 ## setup
 

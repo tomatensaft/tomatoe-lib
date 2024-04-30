@@ -1,12 +1,15 @@
 <!-- omit in toc -->
 # fireall 🔥
 
+firewall `pf` is used as standard
+
 <!-- omit in toc -->
 ## contents
 
-firewall `pf` is used as standard
+- [fireall configuration](#fireall-configuration)
+- [configuration examples](#configuration-examples)
 
-## short description
+## fireall configuration
 
 ```sh
 pass on                             -> in/out-going data traffic

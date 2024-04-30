@@ -4,6 +4,11 @@
 <!-- omit in toc -->
 ## contents
 
+- [tcpdump](#tcpdump)
+- [netstat](#netstat)
+- [sockstat](#sockstat)
+- [hping3 for test purposes](#hping3-for-test-purposes)
+
 ## tcpdump
 
 some command examples

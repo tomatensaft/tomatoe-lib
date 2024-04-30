@@ -1,6 +1,21 @@
 <!-- omit in toc -->
 # commands 💻
 
+commands for control git with the console
+
+<!-- omit in toc -->
+## contents
+
+- [repo handling](#repo-handling)
+- [stage files to local repo](#stage-files-to-local-repo)
+- [commit to local repo](#commit-to-local-repo)
+- [push/pull from/to remote server](#pushpull-fromto-remote-server)
+- [git branch](#git-branch)
+- [git logs](#git-logs)
+- [git local hard reset](#git-local-hard-reset)
+- [git submodule](#git-submodule)
+
+
 ## repo handling
 
 clone repo from server

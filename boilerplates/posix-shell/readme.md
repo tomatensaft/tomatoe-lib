@@ -11,8 +11,9 @@ posix shell boilerplate with configuration file
 
 ## setup
 
-setup
+- no setup needed
 
 ## usage
 
-usage
+- adjust `shell_bp.sh` and `shell_bp.conf`
+- make executeable with `chmod +x shell_bp.sh`

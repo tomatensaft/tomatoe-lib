@@ -1,7 +1,15 @@
 <!-- omit in toc -->
 # differnet apps 🥎
 
-# debian lib
+gernal apps
+
+<!-- omit in toc -->
+# contents
+
+- [general debian commands/tools](#general-debian-commandstools)
+- [install sdk](#install-sdk)
+- [install asp net core](#install-asp-net-core)
+- [install .net runtime](#install-net-runtime)
 
 ## general debian commands/tools
 

@@ -1,4 +1,11 @@
+<!-- omit in toc -->
 # datasync 🔘
+
+<!-- omit in toc -->
+## contents
+
+- [rsync - remote sync](#rsync---remote-sync)
+- [scp - secure copy](#scp---secure-copy)
 
 ## rsync - remote sync
 

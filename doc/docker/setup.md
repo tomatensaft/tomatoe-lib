@@ -1,6 +1,11 @@
 <!-- omit in toc -->
 # setup 👻
 
+<!-- omit in toc -->
+## contents
+
+- [setup docker at wsl](#setup-docker-at-wsl)
+
 ## setup docker at wsl
 
 - open the shell of the wsl2/debian instance and login

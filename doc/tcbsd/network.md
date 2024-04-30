@@ -4,6 +4,11 @@
 <!-- omit in toc -->
 ## contents
 
+- [ip aqddress](#ip-aqddress)
+- [dns naming](#dns-naming)
+- [network interfaces](#network-interfaces)
+- [network routes](#network-routes)
+
 ## ip aqddress
 
 set static ip address with console

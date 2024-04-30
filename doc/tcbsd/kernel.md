@@ -4,6 +4,9 @@
 <!-- omit in toc -->
 ## contents
 
+- [kernel states](#kernel-states)
+- [kernel modules](#kernel-modules)
+
 ## kernel states
 
 system tunables

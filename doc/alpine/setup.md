@@ -1,2 +1,11 @@
 <!-- omit in toc -->
-# settings 💾
+# setup 💾
+
+setup apline linux
+
+<!-- omit in toc -->
+## contents
+
+- [base system](#base-system)
+
+## base system

@@ -4,6 +4,9 @@
 <!-- omit in toc -->
 ## contents
 
+- [jail tools](#jail-tools)
+- [mosquitto mqtt broker](#mosquitto-mqtt-broker)
+
 ## jail tools
 
 iocage jail manager

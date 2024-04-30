@@ -4,6 +4,19 @@
 <!-- omit in toc -->
 ## contents
 
+- [boot messages](#boot-messages)
+- [importand files](#importand-files)
+- [shell cript debug](#shell-cript-debug)
+- [rescue singleuser boot](#rescue-singleuser-boot)
+- [rights executebales](#rights-executebales)
+- [pci - tools](#pci---tools)
+- [shell](#shell)
+- [compression archives](#compression-archives)
+- [access hardware devices](#access-hardware-devices)
+- [logging](#logging)
+- [startprocess](#startprocess)
+- [cron](#cron)
+
 ## boot messages
 
 ```sh
@@ -202,7 +215,7 @@ terminal login
 getty
 ```  
 
-### cron
+## cron
 
 edit ctrotab
 

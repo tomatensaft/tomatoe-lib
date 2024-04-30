@@ -4,6 +4,11 @@
 <!-- omit in toc -->
 ## contents
 
+- [help](#help)
+- [disk infos](#disk-infos)
+- [variables](#variables)
+- [boot](#boot)
+
 ## help
 
 shows help
