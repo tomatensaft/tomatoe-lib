@@ -4,9 +4,6 @@
 power-shell tools / editor description
 
 <!-- omit in toc -->
-## contents
-
-<!-- omit in toc -->
 ## topics
 
 | section | description | link |

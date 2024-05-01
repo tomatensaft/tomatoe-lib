@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # visual studio code 🥸
 
-visual stufio code ide for different platforms
+visual studio code ide for different platforms
 
 <!-- omit in toc -->
 ## topics
