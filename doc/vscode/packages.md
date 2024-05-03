@@ -1,7 +1,14 @@
 <!-- omit in toc -->
 # packages 📦
 
-## useful packages for vscode
+<!-- omit in toc -->
+## contents
+
+- [useful extensions](#useful-extensions)
+- [installing extensions](#installing-extensions)
+- [sources](#sources)
+
+## useful extensions
 
 - emojisense
 - better comments
@@ -15,6 +22,11 @@
 - material icon theme
 - python
 - xml tools
+
+## installing extensions
+
+- install with graphical gui - `Extensions`
+- install with console `code --install extension python`
 
 ## sources
 

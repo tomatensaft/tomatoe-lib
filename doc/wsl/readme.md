@@ -10,5 +10,8 @@ linux emulation system on a windows system - use hyper-v
 |--- |--- |--- |
 | commands | commands for docker engine | [commands](commands.md) |
 | setup | setup docker engine/compose | [setup](setup.md) |
-| packages | useful packages | [packages](packages.md) |
 | settings | differnt wsl settings | [settings](settings.md) |
+
+## sources
+
+(wsl) [https://learn.microsoft.com/de-de/windows/wsl/]

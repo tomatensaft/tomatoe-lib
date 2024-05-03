@@ -20,3 +20,8 @@ tcbsd systemsettings / tools
 | packages | packages commands | [packages](packages.md) |
 | tcbsd | tcbsd special commands | [tcbsd](tsbsd.md) |
 | bhyve | bhyve commands | [bhyve](bhyve.md) |
+
+## sources
+
+(tcbsd) [https://infosys.beckhoff.com/index.php?content=../content/1031/twincat_bsd/]
+(freebsd) [https://www.freebsd.org/]

@@ -16,3 +16,7 @@ documenation / system parameters for debian linux
 | packages | packages commands | [packages](packages.md) |
 | setup | system setup | [setup](setup.md) |
 | qemu | qemu/kvm | [qemu](qemu.md) |
+
+## sources
+
+(debian) [https://www.debian.org]

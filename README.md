@@ -13,7 +13,6 @@ tomatoe-lib for tcbsd and linux
 - [boilerplates](#boilerplates)
 - [debug](#debug)
 - [libraries](#libraries)
-- [general rules for repo functions](#general-rules-for-repo-functions)
 - [tests](#tests)
 - [sources](#sources)
 
@@ -24,6 +23,7 @@ tomatoe-lib for tcbsd and linux
 - tcbsd / freebsd [tcbsd](doc/tcbsd/)
 - qemu commands [qemu](doc/qemu/)
 - docker commands [docker](doc/docker/)
+- podman commands [podman](doc/podman/)
 - posix commands [posix](doc/posix/)
 - windows commands [windows](doc/windows/)
 - python commands [python](doc/python/)
@@ -42,6 +42,8 @@ tomatoe-lib for tcbsd and linux
 - execute the created script `[shell_script_name].sh`
 
 ## main parameters
+
+adjust script header
 
 ```sh
 root_path="${PWD%/*}"
@@ -88,12 +90,13 @@ fi
 
 ## boilerplates
 
-there are some boilerplates for python and shell
+there are some different boilerplates available
 
+- markdown template [standard](boilerplates/markdown/)
 - posix shell standard [standard](boilerplates/posix-shell/)
 - powershell standard [standard](boilerplates/power-shell/)
-- virtual environment python [standard](boilerplates/venv-python/)
-- docker python [docker](boilerplates/docker-python/)
+- oci container [standard](boilerplates/oci-container/)
+- python flask template [standard](boilerplates/python/)
 
 ## debug
 
@@ -116,23 +119,10 @@ different automation helpers for debug applications
 - linux(alpine) [lib](src/alpine_lib.sh)
 - twincat-bsd (tcbsd) [lib](src/tcbsd_lib.sh)
 - docker [lib](src/docker_lib.sh)
+- podman [lib](src/podman_lib.sh)
 - git [lib](src/git_lib.sh)
 - standard function [lib](src/standard_lib.sh)
 - tls library [lib](src/tls_lib.sh)
-
-## general rules for repo functions
-
-success return code
-
-```sh
-0/false success / item found
-```
-
-error return code
-
-```sh
-1/true error / item not found
-```
 
 ## tests
 

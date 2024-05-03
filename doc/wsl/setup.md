@@ -1,11 +1,16 @@
 <!-- omit in toc -->
 # setup wsl2/debian 👺
 
-setup wsl system for use with a windows system and an external usb harddisk
+setup wsl system for use with a windows system
 
-## requirements
+## slect distribution
 
-- preinstalled wsl2 is needed
+- list available dirtsibutions with `wsl --list --online`
+- list installed dirtsibutions with `wsl --list --verbose`
+
+## wsl version
+
+- optianl set wsl version to 2 `wsl --set-default-version 2`
 
 ## install wsl2/debian
 
