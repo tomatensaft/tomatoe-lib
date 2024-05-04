@@ -11,7 +11,3 @@ posix-shell tools / editor description
 | commands | commands for docker engine | [commands](commands.md) |
 | datasync | sync data between machine | [datasync](setup.md) |
 | editors | editor commands | [editors](editors.md) |
-
-## sources
-
-(python) [https://www.python.org/]

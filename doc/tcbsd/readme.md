@@ -23,5 +23,5 @@ tcbsd systemsettings / tools
 
 ## sources
 
-(tcbsd) [https://infosys.beckhoff.com/index.php?content=../content/1031/twincat_bsd/]
-(freebsd) [https://www.freebsd.org/]
+[tcbsd](https://infosys.beckhoff.com/index.php?content=../content/1031/twincat_bsd/)
+[freebsd](https://www.freebsd.org/)

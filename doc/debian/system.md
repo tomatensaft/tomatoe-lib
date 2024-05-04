@@ -5,5 +5,11 @@
 ## contents
 
 - [base commands](#base-commands)
+- [systemctl](#systemctl)
+- [journalctl](#journalctl)
 
 ## base commands
+
+## systemctl
+
+## journalctl

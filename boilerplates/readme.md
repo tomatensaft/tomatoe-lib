@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # different boilerplates
 
-boilerplates for different code base use cases
+boilerplates for different use cases
 
 <!-- omit in toc -->
 ## topics

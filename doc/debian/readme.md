@@ -19,4 +19,4 @@ documenation / system parameters for debian linux
 
 ## sources
 
-(debian) [https://www.debian.org]
+[debian](https://www.debian.org)

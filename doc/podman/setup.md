@@ -4,30 +4,23 @@
 <!-- omit in toc -->
 ## contents
 
-- [setup podman at wsl](#setup-podman-at-wsl)
+- [setup podman on wsl or debian](#setup-podman-on-wsl-or-debian)
 
-## setup podman at wsl
+## setup podman on wsl or debian
 
-- open the shell of the wsl2/debian instance and login
-- install and test docker
+setup podman on debian wsl od debian directly
 
 ```sh
-#directory for keyrings
-sudo mkdir -m 0755 -p /etc/apt/keyrings
 
-#update meta data and install curl
-sudo apt update
-sudo apt install curl
+# install podman
+sudo apt-get install podman
 
-#download keyrings
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo tee /etc/apt/keyrings/docker.asc
-printf 'deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian bullseye stable' | sudo tee /etc/apt/sources.list.d/docker.list
+# start basic http server (without sudo)
+podman run -dt -p 8080:80/tcp docker.io/library/httpd
 
-#install docker engine/compose
-sudo apt update
-sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+# test http server
+curl http://localhost:8080
 
-#test hello world
-sudo docker run hello-world
+#test hello world - also working
+sudo podman run hello-world
 ```
-

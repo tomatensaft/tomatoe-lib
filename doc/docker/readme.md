@@ -13,4 +13,5 @@ documenation / setup for docker system
 
 ## sources
 
-(docker) [https://www.docker.com/]
+[docker](https://www.docker.com/)
+[docker best practise](https://testdriven.io/blog/docker-best-practices/)

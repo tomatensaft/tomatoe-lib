@@ -14,4 +14,4 @@ visual studio code ide for different platforms
 
 ## sources
 
-(vscode) [https://code.visualstudio.com/]
+[vscode](https://code.visualstudio.com/)

@@ -15,7 +15,6 @@ commands for control git with the console
 - [git local hard reset](#git-local-hard-reset)
 - [git submodule](#git-submodule)
 
-
 ## repo handling
 
 clone repo from server

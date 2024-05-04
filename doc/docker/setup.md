@@ -4,12 +4,11 @@
 <!-- omit in toc -->
 ## contents
 
-- [setup docker at wsl](#setup-docker-at-wsl)
+- [setup docker on debian-wsl or debian](#setup-docker-on-debian-wsl-or-debian)
 
-## setup docker at wsl
+## setup docker on debian-wsl or debian
 
-- open the shell of the wsl2/debian instance and login
-- install and test docker
+setup docker on debian esl instance or debian directly
 
 ```sh
 #directory for keyrings
@@ -30,4 +29,3 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 #test hello world
 sudo docker run hello-world
 ```
-

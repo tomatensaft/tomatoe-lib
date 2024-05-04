@@ -32,30 +32,30 @@ virsh vol-list default
 handling start/stop/delete virtual machines
 
 ```sh
-virsh start [vm]
-virsh reboot [vm]
-virsh shutdown [vm]
-virsh destroy [vm]
-virsh undefine [vm]
+virsh start **[vm]**
+virsh reboot **[vm]**
+virsh shutdown **[vm]**
+virsh destroy **[vm]**
+virsh undefine **[vm]**
 ```
 
 handling of snapshots
 
 ```sh
-virsh save [vm] snapshot.state
-virsh restore [vm] snapshot.state
+virsh save **[vm]** snapshot.state
+virsh restore **[vm]** snapshot.state
 ```
 
 enter the console
 
 ```sh
-virsh console [vm]
+virsh console **[vm]**
 ```
 
 edit configuration
 
 ```sh
-virsh edit [vm]
+virsh edit **[vm]**
 
 ```
 

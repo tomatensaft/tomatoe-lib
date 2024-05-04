@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# git helping docs 🐋
+# git helping docs 🚦
 
 documentation for git versioning system
 
@@ -10,3 +10,5 @@ documentation for git versioning system
 |--- |--- |--- |
 | commands | commands for docker engine | [commands](commands.md) |
 | setup | setup docker engine/compose | [setup](setup.md) |
+
+[github](https://github.com/)

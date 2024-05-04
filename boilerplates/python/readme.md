@@ -7,16 +7,13 @@ python flask boilerplate for applications
 <!-- omit in toc -->
 ## contents
 
-- [setup](#setup)
-  - [setup on linux with venv](#setup-on-linux-with-venv)
-  - [setup on windows with venv](#setup-on-windows-with-venv)
-  - [setup with docker](#setup-with-docker)
+- [setup on linux with venv](#setup-on-linux-with-venv)
+- [setup on windows with venv](#setup-on-windows-with-venv)
+- [setup with docker](#setup-with-docker)
 - [usage](#usage)
 - [sources](#sources)
 
-## setup
-
-### setup on linux with venv
+## setup on linux with venv
 
 ```sh
 #!/bin/sh
@@ -31,7 +28,7 @@ pip install -r requirements.txt
 
 ```
 
-### setup on windows with venv
+## setup on windows with venv
 
 ```sh
 
@@ -43,7 +40,7 @@ pip install -r requirements.txt
 
 ```
 
-### setup with docker
+## setup with docker
 
 see docker documentation
 
@@ -61,4 +58,4 @@ execute with docker
 
 ## sources
 
-- (python flas boilerplate) [https://www.python-boilerplate.com/py3+flask+executable+logging]
+[python flas boilerplate](https://www.python-boilerplate.com/py3+flask+executable+logging)
