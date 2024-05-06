@@ -5,6 +5,7 @@
 ## contents
 
 - [setup podman on wsl or debian](#setup-podman-on-wsl-or-debian)
+- [docker alias](#docker-alias)
 
 ## setup podman on wsl or debian
 
@@ -23,4 +24,12 @@ curl http://localhost:8080
 
 #test hello world - also working
 sudo podman run hello-world
+```
+
+## docker alias
+
+set podman alias from docker command
+
+```sh
+alias docker=podman
 ```

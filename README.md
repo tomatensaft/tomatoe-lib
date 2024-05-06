@@ -34,11 +34,11 @@ tomatoe-lib for tcbsd and linux
 
 ## usage
 
-- create `[shell_script_name].conf` in the same folder as the main script and adjust libs which wants to load
+- create `**[shell_script_name]**.conf` in the same folder as the main script and adjust libs which wants to load
 - adjust the correspondent config file for the shell script in the same folder as the shell script
 - e.g. `shell_bp.sh` -> `shell_bp.conf`
 - adjust in the `tomatoe-lib` folder the corresponding lib file e.g. `./conf/debian_lib.conf`
-- execute the created script `[shell_script_name].sh`
+- execute the created script `**[shell_script_name]**.sh`
 
 ## main parameters
 
@@ -52,8 +52,8 @@ app_fullname="${PWD}/${app_name}"
 conf_default="$(echo "$app_fullname" | sed 's/.\{2\}$/conf/')"
 ```
 
-include lib in main script - adjust in `[shell_script_name].conf`
-addional load custon file with 2nd parameter `shell_script_name --xxx -custom.conf`
+include lib in main script - adjust in `**[shell_script_name]**.conf`
+addional load custon file with 2nd parameter `**[shell_script_name]** --xxx -custom.conf`
 
 ```sh
 # load config file for default parameters

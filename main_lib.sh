@@ -65,6 +65,19 @@ else
     printf "$0: lib docker diabled.\n"
 fi
 
+# test include external libs from podman submodule
+if [ ${lib_podman} = "ENABLED" ]; then
+    printf "$0: lib podman enabled.\n"
+    if [ -f  ${root_path}/src/podman_lib.sh ] && [ ${lib_podman} = "ENABLED" ]; then
+        . ${root_path}/src/podman_lib.sh
+    else
+        printf "$0: podman external libs not found - exit.\n"
+        exit 1
+    fi
+else
+    printf "$0: lib podman diabled.\n"
+fi
+
 # test include external libs from git submodule
 if [ ${lib_git} = "ENABLED" ]; then
     printf "$0: lib git enabled.\n"

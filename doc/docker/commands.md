@@ -11,8 +11,8 @@ some commands for control docker from commandline
 - [docker containter](#docker-containter)
 - [docker network](#docker-network)
 - [docker volumes](#docker-volumes)
-- [dockerfile example](#dockerfile-example)
-- [docker compose](#docker-compose)
+- [Conttainerfile example](#Conttainerfile-example)
+- [docker-compose](#docker-compose)
 - [docker checkpoint](#docker-checkpoint)
 - [sources](#sources)
 
@@ -155,9 +155,9 @@ remove all docker volumes
 docker volume rm $(docker volume ls -q)
 ```
 
-## dockerfile example
+## Conttainerfile example
 
-simple `Dockerfile` example build with `docker build .`
+simple `Conttainerfile` example build with `docker build .`
 
 ```sh
 FROM alpine:3.14
@@ -165,40 +165,40 @@ RUN apk add --no-cache mysql-client
 ENTRYPOINT ["mysql"]
 ```
 
-## docker compose
+## docker-compose
 
-docker compose via `docker-compose.yml` configuration file
+docker-compose via `composeyml` configuration file
 
-docker compose start/stop/restart
+docker-compose start/stop/restart
 
 ```sh
-docker compose start
-docker compose stop
-docker compose restart
+docker-compose start
+docker-compose stop
+docker-compose restart
 ```
 
-docker compose up
+docker-compose up
 
 ```sh
-docker compose up
+docker-compose up
 ```
 
-docker compose down
+docker-compose down
 
 ```sh
-docker compose down
+docker-compose down
 ```
 
-docker compose logs
+docker-compose logs
 
 ```sh
-docker compose logs
+docker-compose logs
 ```
 
 list running compose projects
 
 ```sh
-docker compose ls
+docker-compose ls
 ```
 
 ## docker checkpoint

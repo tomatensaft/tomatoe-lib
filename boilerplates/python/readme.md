@@ -54,8 +54,8 @@ execute with venv
 execute with docker
 
 - see docker documentation
-- execute docket container with app.py
+- execute docker/podman container with app.py
 
 ## sources
 
-[python flas boilerplate](https://www.python-boilerplate.com/py3+flask+executable+logging)
+[python flask boilerplate](https://www.python-boilerplate.com/py3+flask+executable+logging)

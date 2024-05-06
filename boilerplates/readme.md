@@ -12,5 +12,5 @@ boilerplates for different use cases
 | posix shell | posix shell boilerplate | [posixshell](posix-shell/) |
 | power shell | powershell boilerplate | [powershell](power-shell/) |
 | oci container | docker and podman templates | [oci-container](oci-container/) |
-| python | python boilerplate | [docker](python/) |
+| python | python boilerplate | [python](python/) |
 | dotnet | dotnet boilerplate | [dotnet](dotnet/) |

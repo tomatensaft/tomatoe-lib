@@ -51,26 +51,26 @@ docker_check_state() {
 }
 
 
-# docker compose reset
+# docker-compose reset
 docker_compose_reset() {
 
-    log -info "docker compose reset"
-    docker compose restart
+    log -info "docker-compose reset"
+    docker-compose restart
 }
 
-# docker compose stop
+# docker-compose stop
 docker_compose_stop() {
 
-    log -info "docker compose stop"
-    docker compose stop
+    log -info "docker-compose stop"
+    docker-compose stop
 }
 
 
-# docker compose start
+# docker-compose start
 docker_compose_start() {
 
-    log -info "docker compose start"
-    docker compose start
+    log -info "docker-compose start"
+    docker-compose start
 }
 
 
@@ -112,7 +112,7 @@ docker_setup_system() {
 docker_delete_data() {
 
     log -info "try shutdown all compose instances"
-    docker compose down
+    docker-compose down
 
     log -info "try shutdown the rest of the containers"
     docker stop $(docker ps -a -q) 

@@ -9,66 +9,83 @@ commands for the wsl
 - [general commands](#general-commands)
 - [network commands](#network-commands)
 - [import / export distribution](#import--export-distribution)
-- [mount ext usb drive with drvfs](#mount-ext-usb-drive-with-drvfs)
+- [mount drive](#mount-drive)
 
 ## general commands
 
 general useful commands
 
+update wsl system
+
 ```sh
-
-# update system
 wsl --update
+```
 
-# wsl staus
+get actual status of wsl
+
+```sh
 wsl --status
+```
 
-# wsl version
+get version of wsl
+
+```sh
 wsl --version
+```
 
-# help
+get wsl help
+
+```sh
 wsl --help
+```
 
-# run specific user
-wsl --user testuser
+run wsl as specific user
 
+```sh
+wsl --user **[testuser]**
+```
 
-# shiutdown
+shutdown wsl
+
+```sh
 wsl --shutdown
-
 ```
 
 ## network commands
 
-discover network for wsl instance
+identify ip address
 
 ```sh
-
-# identify ip address
 wsl hostname -i
-
 ```
 
 ## import / export distribution
 
+export wsl configuration to file
+
 ```sh
-
-# export wsl dist to file
 wsl --export debian debianExport.vhdx
-
-# import wsl dist
-wsl --import debian C:\Data debianExport.vhdx
-
-# import in place
-wsl --import-in-place debian debianExport.vhdx
-
 ```
 
-## mount ext usb drive with drvfs
+import wsl to defined place
+
+```sh
+wsl --import debian C:\Data debianExport.vhdx
+```
+
+import wsl in place
+
+```sh
+wsl --import-in-place debian debianExport.vhdx
+```
+
+## mount drive
 
 - format external usb drive in windows with ntfs
 - determine windows drive letter - for example `g:`
 - login into the wsl2/debian instance, make a direcotry and mount the drive
+
+mount ext usb drive with drvfs
 
 ```sh
 mkdir /mnt/f

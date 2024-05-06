@@ -6,20 +6,20 @@
 
 - [help](#help)
 - [files](#files)
-- [windows](#windows)
+- [windows of vscode](#windows-of-vscode)
 
 ## help
 
-help / version of vscode
+help of vscode
 
 ```sh
-
-# show help
 code --help
+```
 
-# show version
+version of vscode
+
+```sh
 code --version
-
 ```
 
 ## files
@@ -27,22 +27,19 @@ code --version
 open / comparing files
 
 ```sh
-
-# compare two files
 code --diff original.txt newfile.txtx
-
 ```
 
-## windows
+## windows of vscode
 
-control ide-windows
+open new window
 
 ```sh
-
-# open new window
 code --new-window
+```
 
-# ope a file is last active window
-code --resure-window
+open file is last window
 
+```sh
+code --resude-window
 ```

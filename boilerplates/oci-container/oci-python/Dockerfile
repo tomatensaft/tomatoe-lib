@@ -1,11 +1,11 @@
 # python latest slim image
-FROM python:latest-slim
+FROM python:latest
 
 # working director in teh container
 WORKDIR /app
 
 # copy resources from local folder to container
-COPY ./main-app.py /app/
+COPY ./app.py /app/
 COPY ./requirements.txt /app/
 
 # install python dependencies
@@ -15,4 +15,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8000
 
 # execute the sript at containter startup
-ENTRYPOINT ["python", "your_script.py"]
+ENTRYPOINT ["python", "app.py"]
