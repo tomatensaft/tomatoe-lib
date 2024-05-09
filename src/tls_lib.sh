@@ -121,8 +121,29 @@ openssl_x509_rsa() {
 
    # convert certificates to pfx - with no password use -keypbe NONE -certpbe NONE
    # private and public pfx with password
+   log -info "export to pfx"
    openssl pkcs12 -export -inkey ${server_cert_name}.key -in ${server_cert_name}.crt -out ${server_cert_name}.pfx
    openssl pkcs12 -export -inkey ${client_cert_name}.key -in ${client_cert_name}.crt -out ${client_cert_name}.pfx
+
+   # export to pem
+   log -info "export to pem"
+   openssl x509 -in ${server_cert_name}.crt -out ${server_cert_name}.pem
+   openssl x509 -in ${client_cert_name}.crt -out ${client_cert_name}.pem
+
+   # export to der
+   log -info "export to der"
+   openssl x509 -outform der -in ${server_cert_name}.pem -out ${server_cert_name}.der
+   openssl x509 -outform der -in ${client_cert_name}.pem -out ${client_cert_name}.der
+
+   # export to pkcs7
+   log -info "export to pkcs7"
+   openssl crl2pkcs7 -nocrl -certfile ${server_cert_name}.pem -out ${server_cert_name}.p7b -certfile ${server_cert_name}.crt
+   openssl crl2pkcs7 -nocrl -certfile ${client_cert_name}.pem -out ${client_cert_name}.p7b -certfile ${client_cert_name}.crt
+
+   # export to pkcs8
+   log -info "export to pkcs8"
+   openssl pkcs8 -in ${server_cert_name}.pem -topk8 -nocrypt -out ${server_cert_name}.pk8
+   openssl pkcs8 -in ${client_cert_name}.pem -topk8 -nocrypt -out ${client_cert_name}.pk8
 
    # finished
    log -info "cert generate finished"
