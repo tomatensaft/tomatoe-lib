@@ -8,8 +8,8 @@ linux emulation system on a windows system - use hyper-v
 
 | section | description | link |
 |--- |--- |--- |
-| commands | commands for docker engine | [commands](commands.md) |
-| setup | setup docker engine/compose | [setup](setup.md) |
+| commands | commands for wsl | [commands](commands.md) |
+| setup | setup wsl | [setup](setup.md) |
 | settings | differnt wsl settings | [settings](settings.md) |
 
 ## sources

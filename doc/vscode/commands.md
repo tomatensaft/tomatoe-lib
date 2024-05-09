@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # commands 💻
 
+visual studion code commands
+
 <!-- omit in toc -->
 ## contents
 

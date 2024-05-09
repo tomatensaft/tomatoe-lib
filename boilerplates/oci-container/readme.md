@@ -2,8 +2,8 @@
 <!-- omit in toc -->
 # oci-container boilerplate
 
-oci boilerplate for docker and podman
-docker namin is used because it works with docker and podman
+oci boilerplate for docker and podman  
+docker naming is used because it works with docker and podman
 
 <!-- omit in toc -->
 ## contents
@@ -30,7 +30,7 @@ docker namin is used because it works with docker and podman
 
 ## oci standardfiles
 
-standard naming for oci files
+standard naming for oci files  
 
 oci-standard compose files (only podman)
 

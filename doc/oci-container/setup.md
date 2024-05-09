@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # setup 👻
 
+setup oci container - docker or podman
+
 <!-- omit in toc -->
 ## contents
 

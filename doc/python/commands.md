@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # commands 💻
 
-commands for control git with the console
+commands for python console
 
 <!-- omit in toc -->
 ## contents

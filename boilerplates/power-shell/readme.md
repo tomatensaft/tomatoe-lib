@@ -11,8 +11,8 @@ powershell boilerplate for win10/11
 
 ## setup
 
-short setup descrition
+short setup description
 
 ## usage
 
-short usage descripton
+short usage description

@@ -1,6 +1,11 @@
 <!-- omit in toc -->
 # packages 📦
 
+bsd package system
+
+<!-- omit in toc -->
+## contents
+
 - [package system](#package-system)
 
 ## package system

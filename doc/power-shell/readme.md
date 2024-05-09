@@ -8,6 +8,6 @@ power-shell tools / editor description
 
 | section | description | link |
 |--- |--- |--- |
-| commands | commands for docker engine | [commands](commands.md) |
+| commands | commands for powershell | [commands](commands.md) |
 | datasync | sync data between machine | [datasync](setup.md) |
 | editors | editor commands | [editors](editors.md) |

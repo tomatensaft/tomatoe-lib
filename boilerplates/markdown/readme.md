@@ -1,7 +1,8 @@
 <!-- omit in toc -->
 # header descripttion 🥸
 
-short descriptiotn
+short description  
+explantion - for line brake use two spaces
 
 <!-- omit in toc -->
 ## contents

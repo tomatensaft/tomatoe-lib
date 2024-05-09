@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # setup 👻
 
+setup powershell for different machines
+
 <!-- omit in toc -->
 ## contents
 

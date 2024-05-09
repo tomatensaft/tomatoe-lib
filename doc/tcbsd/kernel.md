@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # bsd kernel ⚔️
 
+kernel information
+
 <!-- omit in toc -->
 ## contents
 

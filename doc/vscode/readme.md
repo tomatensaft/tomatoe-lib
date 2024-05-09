@@ -8,8 +8,8 @@ visual studio code ide for different platforms
 
 | section | description | link |
 |--- |--- |--- |
-| commands | commands for docker engine | [commands](commands.md) |
-| setup | setup docker engine/compose | [setup](setup.md) |
+| commands | commands for vscode | [commands](commands.md) |
+| setup | setup vscode | [setup](setup.md) |
 | packages | useful packages | [packages](packages.md) |
 
 ## sources

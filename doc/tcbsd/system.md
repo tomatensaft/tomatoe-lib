@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # system 👻
 
+bsd system information
+
 <!-- omit in toc -->
 ## contents
 

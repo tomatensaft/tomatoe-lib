@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # editors 💦
 
+commands for vi
+
 <!-- omit in toc -->
 ## contents
 

@@ -2,6 +2,8 @@
 <!-- omit in toc -->
 # network 💻
 
+network commands for powershell
+
 <!-- omit in toc -->
 ## contents
 

@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # network 💻
 
+network configuration
+
 <!-- omit in toc -->
 ## contents
 

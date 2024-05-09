@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # differnet apps 🥎
 
+different apps for tcbsd
+
 <!-- omit in toc -->
 ## contents
 

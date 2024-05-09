@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # bhyve virtualization 🧮
 
+bhyve virtualsization commands
+
 <!-- omit in toc -->
 ## contents
 

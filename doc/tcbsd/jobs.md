@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # jobs ⛑️
 
+commands for control jobs
+
 <!-- omit in toc -->
 ## contents
 

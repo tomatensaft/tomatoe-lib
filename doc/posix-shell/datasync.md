@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # datasync 🔘
 
+sync data between differnt machines
+
 <!-- omit in toc -->
 ## contents
 

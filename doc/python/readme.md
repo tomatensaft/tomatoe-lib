@@ -8,8 +8,8 @@ setup / documentation for python basic usage
 
 | section | description | link |
 |--- |--- |--- |
-| commands | commands for docker engine | [commands](commands.md) |
-| setup | setup docker engine/compose | [setup](setup.md) |
+| commands | commands for python cli | [commands](commands.md) |
+| setup | setup python | [setup](setup.md) |
 
 ## sources
 
