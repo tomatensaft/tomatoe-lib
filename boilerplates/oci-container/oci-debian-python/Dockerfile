@@ -1,5 +1,6 @@
 # python latest slim image
-FROM python:latest
+FROM python:3.12-slim-bookworm
+LABEL maintainer="tomatoe-lib"
 
 # working director in teh container
 WORKDIR /app

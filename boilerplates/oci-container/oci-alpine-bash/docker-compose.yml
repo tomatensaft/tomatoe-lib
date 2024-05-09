@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-  python:
-      container_name: python
+  alpine-bash:
+      container_name: alpine-bash
       build: .
       env_file:
         - ./.env

@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  alpine-curl:
+      container_name: alpine-curl
+      build: .
+      env_file:
+        - ./.env
+      stop_signal: SIGINT 
+      ports:
+      - '8000:8000'
+      volumes:
+        - ${PWD}/data:/data

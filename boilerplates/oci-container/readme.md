@@ -3,18 +3,25 @@
 # oci-container boilerplate
 
 oci boilerplate for docker and podman
+docker namin is used because it works with docker and podman
 
 <!-- omit in toc -->
 ## contents
 
-- [setup](#setup)
+- [setup docker](#setup-docker)
+- [setup podman](#setup-podman)
 - [usage](#usage)
 - [oci standardfiles](#oci-standardfiles)
 
-## setup
+## setup docker
 
-- setup docker (see docker documentation)
-- setup podman (see podman documentation)
+- disable podman with `sudo systemctl stop docker.service`
+- setup docker (documentation)[]
+
+## setup podman
+
+- disable docker with `sudo systemctl disable --now docker.service docker.socket`
+- setup podman (documentation)[]
 
 ## usage
 
@@ -23,23 +30,23 @@ oci boilerplate for docker and podman
 
 ## oci standardfiles
 
-standard naming for oci files - for podman works all
+standard naming for oci files
 
-oci-standard compose files
+oci-standard compose files (only podman)
 
 ```sh
 Containerfile
 container-compose.yml
 ```
 
-docker compose files
+docker compose files (docker and podman)
 
 ```sh
 Dockerrfile
 docker-compose.yml
 ```
 
-podman compose files
+podman compose files (only podman)
 
 ```sh
 Containerfile

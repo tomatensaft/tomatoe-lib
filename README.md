@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # tomatoe-lib 📚 🍅
 
-tomatoe-lib for tcbsd and linux
+tomatoe-lib for tcbsd, linux and partitial win
 
 <!-- omit in toc -->
 ## contents
@@ -11,7 +11,6 @@ tomatoe-lib for tcbsd and linux
 - [usage](#usage)
 - [main parameters](#main-parameters)
 - [boilerplates](#boilerplates)
-- [debug](#debug)
 - [libraries](#libraries)
 - [tests](#tests)
 
@@ -21,8 +20,7 @@ tomatoe-lib for tcbsd and linux
 - debian / linux [debian](doc/debian/)
 - tcbsd / freebsd [tcbsd](doc/tcbsd/)
 - qemu commands [qemu](doc/qemu/)
-- docker commands [docker](doc/docker/)
-- podman commands [podman](doc/podman/)
+- oci-container commands [container](doc/oci-container/)
 - posix commands [posix](doc/posix/)
 - windows commands [windows](doc/windows/)
 - python commands [python](doc/python/)
@@ -96,16 +94,6 @@ there are some different boilerplates available
 - powershell standard [standard](boilerplates/power-shell/)
 - oci container [standard](boilerplates/oci-container/)
 - python flask template [standard](boilerplates/python/)
-
-## debug
-
-different automation helpers for debug applications
-
-- mqtt [mqtt](debug/mqtt/)
-- opcua [opcua](debug/opcua/)
-- modbus [modbus](debug/modbus/)
-- posix-shell [posix](debug/posix-shell/)
-- power-shell [power-shell](debug/power-shell/)
 
 ## libraries
 
