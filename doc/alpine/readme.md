@@ -10,7 +10,7 @@ documenation / system parameters for alpine linux
 |--- |--- |--- |
 | apps | different programs | [apps](apps.md) |
 | fileystem | filesystem commands | [filesystem](filesystem.md) |
-| firewall | fireall examples | [firewall](firewall.md) |
+| firewall | firewallexamples | [firewall](firewall.md) |
 | network | network commands / parameters | [network](network.md) |
 | system | system parameters | [system](system.md) |
 | packages | packages commands | [packages](packages.md) |

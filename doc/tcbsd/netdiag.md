@@ -18,11 +18,12 @@ some command examples
 ```sh
 tcpdump -D
 tcpdump -i ens3
-tcpdump -i 2 "port http"
+tcpdump -i ens3 -A
+tcpdump -i 2 port http
 tcpdump -i 2  port http -v
 tcpdump -i 2  port http -vvv
-tcpdump -i 2  "port http" -ASCII
-tcpdump -i 2  "port http" -X
+tcpdump -i 2  port http -ASCII
+tcpdump -i 2  port http -X
 tcpdump -i 2  port http -q -n
 
 tcpdump -i 2  tcp
@@ -33,6 +34,8 @@ tcpdump -i 2  ip
 
 tcpdump -i 2  dst google.com
 tcpdump -i 2  portrange 70-90
+
+tcpdump -i 2  dst 192.168.1.0 src 192.68.0.1
 ```
 
 ## netstat

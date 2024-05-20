@@ -17,3 +17,4 @@ short infos for maitaining systems and programs for win/linux/unix systems
 | python | python | [dotnet](python/) |
 | vscode | visual studio code | [vscode](vscode/) |
 | wsl | windows subsystem for linux | [wsl](wsl/) |
+| tools | linux/bsd tools| [tools](tools/) |

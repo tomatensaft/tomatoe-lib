@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# fireall 🔥
+# firewall🔥
 
 firewall commands / settings
 

@@ -8,7 +8,7 @@ bsd system information
 
 - [boot messages](#boot-messages)
 - [importand files](#importand-files)
-- [shell cript debug](#shell-cript-debug)
+- [shell script debug](#shell-script-debug)
 - [rescue singleuser boot](#rescue-singleuser-boot)
 - [rights executebales](#rights-executebales)
 - [pci - tools](#pci---tools)
@@ -70,7 +70,7 @@ check rc.conf
 sh /etc/rc.conf
 ```
 
-## shell cript debug
+## shell script debug
 
 start debug
 

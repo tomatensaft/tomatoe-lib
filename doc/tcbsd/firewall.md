@@ -1,15 +1,15 @@
 <!-- omit in toc -->
-# fireall 🔥
+# firewall🔥
 
 firewall `pf` is used as standard
 
 <!-- omit in toc -->
 ## contents
 
-- [fireall configuration](#fireall-configuration)
+- [firewall configuration](#firewall-configuration)
 - [configuration examples](#configuration-examples)
 
-## fireall configuration
+## firewall configuration
 
 ```sh
 pass on                             -> in/out-going data traffic
@@ -63,6 +63,7 @@ pass out quick all keep state
 
 # PING #
 pass in on $if inet proto icmp all icmp-type $icmp_types keep state
+
 
 # TRACEROUTE #
 pass in on $if inet proto udp from any to any port 33433 >< 33626 keep state

@@ -10,7 +10,7 @@ tcbsd systemsettings / tools
 |--- |--- |--- |
 | apps | different programs | [apps](apps.md) |
 | fileystem | filesystem commands | [filesystem](filesystem.md) |
-| firewall | fireall examples | [firewall](firewall.md) |
+| firewall | firewallexamples | [firewall](firewall.md) |
 | jobs | job overview | [jobs](jobs.md) |
 | kernel | kernel paramaters | [kernel](kernel.md) |
 | boot loader | boot loader parameters | [loader](loader.md) |

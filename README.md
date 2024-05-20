@@ -19,11 +19,13 @@ tomatoe-lib for tcbsd, linux and partitial win
 - alpine / linux [alpine](doc/alpine/)
 - debian / linux [debian](doc/debian/)
 - tcbsd / freebsd [tcbsd](doc/tcbsd/)
-- qemu commands [qemu](doc/qemu/)
+- git [git](doc/git/)
 - oci-container commands [container](doc/oci-container/)
-- posix commands [posix](doc/posix/)
-- windows commands [windows](doc/windows/)
-- python commands [python](doc/python/)
+- posix-shell commands [posix](doc/posix-shell/)
+- power-shell commands [power](doc/power-shell/)
+- tools [tools](doc/tools/)
+- vscode [vscode](doc/vscode/)
+- wsl [wsl](doc/wsl/)
 
 ## setup
 
@@ -97,18 +99,13 @@ there are some different boilerplates available
 
 ## libraries
 
-- linux(debian) [lib](src/debian_lib.sh)
 - freebsd (tcbsd) [lib](src/tcbsd_lib.sh)
-- docker [lib](src/docker_lib.sh)
 - git [lib](src/git_lib.sh)
 - standard functions [lib](src/standard_lib.sh)
 - linux(debian) [lib](src/debian_lib.sh)
 - linux(alpine) [lib](src/alpine_lib.sh)
-- twincat-bsd (tcbsd) [lib](src/tcbsd_lib.sh)
 - docker [lib](src/docker_lib.sh)
 - podman [lib](src/podman_lib.sh)
-- git [lib](src/git_lib.sh)
-- standard function [lib](src/standard_lib.sh)
 - tls library [lib](src/tls_lib.sh)
 
 ## tests
